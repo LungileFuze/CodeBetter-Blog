@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBetter.API", "CodeBetter.API\CodeBetter.API.csproj", "{A0736912-9671-484D-8A52-CCC3FC9FFB4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0736912-9671-484D-8A52-CCC3FC9FFB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0736912-9671-484D-8A52-CCC3FC9FFB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0736912-9671-484D-8A52-CCC3FC9FFB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0736912-9671-484D-8A52-CCC3FC9FFB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EEDD097-61A1-48FC-B68D-923E47F4F62C}
+	EndGlobalSection
+EndGlobal
