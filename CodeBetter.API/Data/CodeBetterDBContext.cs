@@ -5,11 +5,13 @@ namespace CodeBetter.API.Data
 {
     public class CodeBetterDBContext : DbContext
     {
-        public CodeBetterDBContext(DbContextOptions options) : base(options)
+        public CodeBetterDBContext(DbContextOptions<CodeBetterDBContext> options) : base(options)
         {
         }
         public DbSet<BlogPost> BlogPosts { get; set; }
 
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<BlogImage> BlogImages { get; set; }
     }
 }
